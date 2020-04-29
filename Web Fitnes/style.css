@@ -1,0 +1,308 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#header {
+	background-image: url(img/banner.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navbar-nav li a{
+	float: right;
+	color: #fff !important;
+}
+
+.navbar-brand img {
+	width: 150px;
+	margin-left: 30px;
+}
+
+.navbar-toggler {
+	border: none !important;
+	outline: none !important;
+}
+
+nav .fa-bars {
+	color: #fff;
+	font-size: 26px;
+}
+
+/*--------------Welcome---------*/
+.welcome {
+	padding: 50px 100px;
+	margin-top: -140px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1 {
+	color: #333;
+}
+
+.welcome .btn-light {
+	margin-top: 10px;
+	padding: 10px 50px;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #013f7e;
+}
+
+.welcome .btn:focus {
+	box-shadow: none;
+}
+
+
+/*About*/
+#about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#about .col-md-6 {
+	padding: 20px 10px;
+}
+
+#about h3 {
+	margin: 20px auto;
+}
+
+#about img {
+	width: 500px;
+	height: 300px;
+}
+
+/*Services*/
+#services img {
+	width: 50px;
+	height: 50px;
+}
+
+#services {
+	background-color: #efefef;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#services .col-md-4 {
+	padding: 20px;
+}
+
+#services .col-md-4 h3 {
+	padding: 5px;
+}
+
+#services .col-md-4 p {
+	padding: 5px;
+	text-align: justify;
+}
+
+/*Features*/
+#features {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/feature-background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+#features .col-md-6 {
+	padding: 20px;
+}
+
+.feature-box {
+	height: 120px;
+}
+
+.feature-box .feature-left {
+	height: 120px;
+	width: 20%;
+	float: left;
+}
+
+.feature-box .feature-left .fa {
+	padding-top: 13px;
+	font-size: 50px;
+}
+
+.feature-box .feature-right {
+	height: 120px;
+	width: 80%;
+	float: left;
+}
+
+.feature-box .feature-right h4 {
+	padding-top: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+.feature-box .feature-right p {
+	padding-left: 15px;
+	text-align: left;
+}
+
+/*Testiomonial*/
+#testimonials {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#testimonials .col-md-4 {
+	padding: 10px 30px;
+}
+
+#testimonials img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: -30px;
+	margin-top: -40px;
+	margin-bottom: 30px;
+	border: 5px solid #fff;
+}
+
+.review {
+	font-size: 16px;
+	padding: 10px 10px 10px 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 1px rgba(0,0,0,.2);
+}
+
+.review .fa-twitter {
+	color: #013f7e;
+}
+
+#testimonials span {
+	color: #013f7e;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#testimonials h1 {
+	margin-bottom: 20px;
+	color: #013f7e;
+}
+
+#testimonials p {
+	padding-bottom: 20px;
+}
+
+#testimonials .middle {
+	margin-bottom: -30px;
+	margin-top: -30px;
+}
+
+/*Subscribe*/
+.subscribe {
+	padding: 50px 20px;
+	background-color: #013f7e;
+	position: relative;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,.2);
+	margin-bottom: -160px;
+}
+
+.subscribe h3, .subscribe p {
+	color : #fff;
+}
+
+.subscribe .input-group {
+	border-radius: 30px;
+	background: #fff;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.subscribe .form-control {
+	border: none;
+	background: transparent;
+}
+
+.subscribe .form-control:focus {
+	box-shadow: none;
+	background: transparent;
+}
+
+.subscribe .input-group-append {
+	background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+	border-radius: 30px;
+}
+
+.subscribe .input-group-text {
+	background: transparent;
+	border: none;
+	color: #fff;
+}
+
+.subscribe .btn:focus {
+	box-shadow: none;
+}
+
+/*Footer*/
+#footer {
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #efefef;
+	color : #013f7e;	
+}
+
+.footer-logo {
+	width: 150px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+#footer h1 {
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#footer p {
+	font-size: 12px;
+	text-align: left;
+}
+
+#footer .city {
+	margin-left: 37px;
+}
+
+#footer .row .fa {
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+#footer hr {
+	margin-top: 20px;
+}
+
+#footer .fa-heart-o {
+	color: red;
+	font-size: 17px;
+}
+
+#footer .copyright {
+	margin-bottom:-80px;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+.top-up {
+	width: 50px;
+	height: 50px;
+	background-color: #013f7e;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,.5);
+	z-index: 1;
+	float: right;
+	color: #fff;
+	padding: 10px;
+	max-height: 2000px;
+}
+
